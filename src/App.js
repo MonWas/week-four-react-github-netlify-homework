@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -12,8 +11,7 @@ function App() {
             <h6 id="description">Broken Clouds</h6>
             <h1 className="temperature">6</h1>
             <div class="units">
-              <a href="#" className="active">°C</a> |
-              <a href="#" >°F</a>
+              <span className="active">°C</span> | <span>°F</span>
             </div>
             <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="Broken Clouds" />
           </div>
@@ -121,53 +119,53 @@ function App() {
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>8°</strong></div>
-                <div className="col-3" className="weekly">2°</div>
+                <div className="col-3 weekly"><strong>8°</strong></div>
+                <div className="col-3 weekly">2°</div>
               </div>
               <div className="row align-items-center">
                 <div className="col-3"><strong>Monday</strong></div>
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>9°</strong></div>
-                <div className="col-3" className="weekly">2°</div>
+                <div className="col-3 weekly"><strong>9°</strong></div>
+                <div className="col-3 weekly">2°</div>
               </div>
                <div className="row align-items-center">
                 <div className="col-3"><strong>Tuesday</strong></div>
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/03d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>13°</strong></div>
-                <div className="col-3" className="weekly">4°</div>
+                <div className="col-3 weekly"><strong>13°</strong></div>
+                <div className="col-3 weekly">4°</div>
               </div>
               <div className="row align-items-center">
                 <div className="col-3"><strong>Wednesday</strong></div>
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/03d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>15°</strong></div>
-                <div className="col-3" className="weekly">6°</div>
+                <div className="col-3 weekly"><strong>15°</strong></div>
+                <div className="col-3 weekly">6°</div>
               </div>
               <div className="row align-items-center">
                 <div className="col-3"><strong>Thursday</strong></div>
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>12°</strong></div>
-                <div className="col-3" className="weekly">7°</div>
+                <div className="col-3 weekly"><strong>12°</strong></div>
+                <div className="col-3 weekly">7°</div>
               </div>
               <div className="row align-items-center">
                 <div className="col-3"><strong>Friday</strong></div>
                 <div className="col-3">
                   <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="" />
                 </div>
-                <div className="col-3" className="weekly"><strong>7°</strong></div>
-                <div className="col-3" className="weekly">3°</div>
+                <div className="col-3 weekly"><strong>7°</strong></div>
+                <div className="col-3 weekly">3°</div>
               </div>
             </div>
           </div>
           <br />
-          <div className="card" className="details">
+          <div className="card details">
             <h5 className="card-header">Details</h5>
             <div className="card-body">
               <div className="row align-items-center">
@@ -186,7 +184,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="card" className="details">
+          <div className="card details">
             <div className="card-body">
               <div className="row align-items-center">
                 <div className="col-6">
@@ -204,7 +202,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="card" className="details">
+          <div className="card details">
             <div className="card-body">
               <div className="row align-items-center">
                 <div className="col-6">
@@ -222,7 +220,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="card" className="details">
+          <div className="card details">
             <div className="card-body">
               <div className="row align-items-center">
                 <div className="col-6">
@@ -240,7 +238,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="card" className="details">
+          <div className="card details">
             <div className="card-body">
               <div className="row align-items-center">
                 <div className="col-6">
